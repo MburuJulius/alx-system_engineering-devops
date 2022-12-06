@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -f . | head -n 10 | sort | less
+ls -l . | sort | head -n 10 | less
