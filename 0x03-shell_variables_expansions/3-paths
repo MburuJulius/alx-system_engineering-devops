@@ -1,2 +1,2 @@
 #!/bin/bash
-file $PATH | grep d* | wc -l
+ls $PATH file | grep d* | wc -l
