@@ -1,2 +1,2 @@
 #!/bin/bash
-file * | grep directory | wc -l
+ls -la | grep ^d | wc -l
